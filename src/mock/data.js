@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lalov1', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'lallo.vigil@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,27 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/lalov1',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/lalov1/',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lallovigil/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lalov1',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

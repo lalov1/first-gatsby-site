@@ -65,6 +65,7 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
@@ -72,7 +73,9 @@ $ npm install
 # Start development server
 $ gatsby develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
@@ -124,7 +127,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '/docs/resume.pdf', // if no resume, the button will not show up
 };
 ```
 

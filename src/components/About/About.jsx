@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,15 +39,13 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My father named me after my grandfather, his name was Candelario which means candlelight in Spanish. My grandfather\'s nickname was Lallo, so I received his nickname as my first name. Most of my friends call me "Lay Low" because that’s how my name is usually mispronounced. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I graduated from Colorado State University-Pueblo in May of 2007. My major was Mass Communications with an emphasis in New Media Studies and also received a minor in Computer Information Systems with an emphasis in Web Development. Upon my graduation I was hired as a Web Developer for Colorado State University-Pueblo's Information Technology department where I worked for 11 years. I now am currently employed at University of the Incarnate Word in San Antonio, TX as the Web Manager. "}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
