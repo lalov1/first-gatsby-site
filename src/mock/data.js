@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'resume.pdf', // if no resume, the button will not show up
+  resume: '/docs/resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,16 +29,16 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Interactive Campus Map',
+    info: 'An interactive campus map that I helped create using Leaflet, jQuery and Bootstrap.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/lalov1', // if no repo, the button will not show up
+    url: 'https://www.csupueblo.edu/about/campus/interactive-map.html',
+    repo: 'https://github.com/lalov1/campus-map', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Hits the Spot',
     info: '',
     info2: '',
     url: '',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Abodio',
     info: '',
     info2: '',
     url: '',
