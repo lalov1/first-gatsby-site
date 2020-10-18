@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: '/docs/resume.pdf', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/lallovigil/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
