@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.linkedin.com/in/lallovigil/', // if no resume, the button will not show up
+  resume: 'https://lalov1.github.io/docs/resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -110,6 +110,11 @@ export const footerData = {
       id: uuidv1(),
       name: 'github',
       url: 'https://github.com/lalov1',
+    },
+    {
+      id: uuidv1(),
+      name: 'free-code-camp',
+      url: 'https://www.freecodecamp.org/lalov1',
     },
   ],
 };
