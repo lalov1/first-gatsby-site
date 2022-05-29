@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'uiw.jpg',
     title: 'University of the Incarnate Word',
     info:
-      'I currently work at the University of the Incarnate Word as the Web Manager, where I oversee the operations of the website and our mobile app.',
+      'I worked at the University of the Incarnate Word as the Web Manager, where I helped oversee the operations of the website and mobile app.',
     info2:
       "I've assisted in many large projects such as website redesign and helping implement campus services such as a calendaring system. We use Cascade CMS, which is mainly for Higher Education websites.",
     url: 'https://www.uiw.edu/',

@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I graduated from Colorado State University-Pueblo in May of 2007. My major was Mass Communications with an emphasis in New Media Studies and also received a minor in Computer Information Systems with an emphasis in Web Development. Upon my graduation I was hired as a Web Developer for Colorado State University-Pueblo's Information Technology department where I worked for 11 years. I now am currently employed at University of the Incarnate Word in San Antonio, TX as the Web Manager. "}
+                    "I graduated from Colorado State University-Pueblo in May of 2007. My major was Mass Communications with an emphasis in New Media Studies , and also received a minor in Computer Information Systems with an emphasis in Web Development. Upon my graduation, I was hired as a Web Developer for Colorado State University-Pueblo's Information Technology department, where I worked for 11 years. I then moved to San Antonio, TX, where I was Web Manager at the University of the Incarnate Word and Randolph Brooks Federal Credit Union. I'm currently a Web Developer at the University of Texas at San Antonio."}
                 </p>
 
                 {resume && (
